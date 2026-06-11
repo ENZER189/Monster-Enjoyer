@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(124, 255, 0, 0.16), transparent 32rem),
+    radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.08), transparent 24rem),
+    #080A08;
+  color: #F4FFF0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+.glass {
+  background: rgba(17, 22, 17, 0.78);
+  border: 1px solid rgba(124, 255, 0, 0.18);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(16px);
+}
+
+.monster-grid {
+  background-image:
+    linear-gradient(rgba(124, 255, 0, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(124, 255, 0, 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
