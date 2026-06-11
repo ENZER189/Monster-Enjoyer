@@ -1,8 +1,8 @@
 'use client';
 
 import { ChangeEvent, FormEvent, useEffect, useMemo, useState } from 'react';
-import { exportCans, loadCans, makeId, saveCans } from '@/lib/storage';
-import { CanRarity, CanStatus, MonsterCan, RARITIES, rarityScore, STATUSES } from '@/lib/types';
+import { exportCans, loadCans, makeId, saveCans } from '../lib/storage';
+import { CanRarity, CanStatus, MonsterCan, RARITIES, rarityScore, STATUSES } from '../lib/types';
 
 const sampleCans: MonsterCan[] = [
   {
